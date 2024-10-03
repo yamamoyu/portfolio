@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  max-width: 1440px;
+  width: 100%;
+}
+body a {
+  color: #333333;
+  -webkit-tap-highlight-color: #333333;
+  text-decoration: none;
+}
+body a :focus {
+  outline: none;
+}
+body img {
+  vertical-align: bottom;
+  max-width: 100%;
+  width: 100%;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  font-size: 110px;
+}
+body h2 {
+  font-size: 90px;
+}
+body h3 {
+  font-size: 40px;
+}
+body p {
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.15rem;
+}
+body code, body kbd, body samp, body pre,
+body sub, body sup {
+  font-size: 14px;
+}
+body ul {
+  list-style-type: none;
+}
+body section {
+  margin: 0 auto;
+  margin-top: 192px;
+  padding: 0 24px;
+  width: 90%;
+  max-width: 1024px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(500px);
+          transform: translateY(500px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+body section.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+@media screen and (max-width: 768px) {
+  body section {
+    margin-top: 96px;
+    width: 90%;
+  }
+  body h1 {
+    font-size: 110px;
+  }
+  body h2 {
+    font-size: 70px;
+  }
+  body h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body section {
+    margin-top: 48px;
+    width: 100%;
+  }
+  body h1 {
+    font-size: 42px;
+  }
+  body h2 {
+    font-size: 48px;
+  }
+  body h3 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオタイトル</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="./index.html">
+                    <h1>Mary Jones <span> - Portfolio site</span></h1>
+                </a>
+            </div>
+            <ul class="header__list">
+                <li><a href="./pages/about.html">ABOUT</a></li>
+                <li><a href="./pages/works.html">WORKS</a></li>
+                <li><a href="./pages/service.html">SERVICE</a></li>
+                <li><a href="./pages/blog.html">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <ul class="header__sns">
+                <li><a href=""><img src="assets/images/header_twitter.png" alt=""></a></li>
+                <li><a href=""><img src="assets/images/header_instagram.png" alt=""></a></li>
+                <li><a href=""><img src="assets/images/header_mail.png" alt=""></a></li>
+            </ul>
+            <button class="header__hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <ul class="header__nav">
+            <li><a href="./pages/about.html">ABOUT</a></li>
+            <li><a href="./pages/works.html">WORKS</a></li>
+            <li><a href="./pages/service.html">SERVICE</a></li>
+            <li><a href="./pages/blog.html">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <div class="mv">
+        <video src="assets/images/mv__video.mp4" autoplay muted poster="assets/images/mv_poster.jpg">
+        </video>
+        <div class="mv__text">
+            <h1>Don't be <br>into trends</h1>
+         <div class="mv__subtext">
+            <p>Freelance / Graphic Designer</p>
+            <p class="medium">Mary Jones</p>
+         </div>
+        </div>
+    </div>
+
+
+    <main class="main">
+
+        <section class="about" id="about">
+          <div class="about__text">
+            <h2>ABOUT</h2>
+            <p class="medium about-name">Mary Jones</p>
+            <p class="about__profile">
+                平成生まれ、東京育ち。小さい頃から何かを作るのが好きで、美大に進学。<br>
+                フリーペーパーの制作やアートイベントの主催、ハンドメイドアクセサリーの販売等の
+                活動を学業と並行して行う。大学卒業後、企業のデザイナーとして勤務したのち、独立。<br>
+                現在はフリーランスとしてグラフィックデザインやウェブデザイン、CIデザインなど、
+                幅広く活動中。
+            </p>
+            <h3>SKILLS</h3>
+            <p class="about__profile">
+                Adobe XD / Adobe illustrator / Adobe Photoshop / Sketch / Figma / ProtoPie /
+                STUDIO / AdobeAfter Effects...
+            </p>
+            <h3>LINKS</h3>
+            <ul class="about__profile links">
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Facebook</a></li>
+            </ul>
+          </div>
+           <div class="about__photo">
+            <img src="assets/images/about__img.jpg" srcset="assets/images/about__img.jpg 1x, assets/images/about__img@2x.jpg 2x">
+          </div>
+        </section>
+        <div class="content__01">
+            <img src="assets/images/contentImage_001.jpg">
+        </div>
+
+
+        <section class="works" id="works">
+            <h2>WORKS</h2>
+            <div class="works__card">
+              <div class="works__card-left">
+                <a href="./pages/works.html">
+                <img class="pc" src="assets/images/works__card__001.jpg">
+                <img class="sp" src="assets/images/works__card__002.jpg">
+                <p>コーポレートサイト紹介</p>
+                </a>
+              </div>
+              <div class="works__card-right">
+                <a href="./pages/works.html">
+                <img class="pc" src="assets/images/works__card__002.jpg">
+                <img class="sp" src="assets/images/works__card__001.jpg">
+                <p class="pc">CI・ブランディング</p>
+                <p class="sp">コーポレートサイト紹介</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="works__slider">
+                <p>2019-</p>
+                <div class="works__slider-photo">
+                    <ul>
+                        <li>
+                            <img src="assets/images/work__item__001.jpg" srcset="assets/images/work__item__001.jpg 1x, assets/images/work__item__001@2x.jpg 2x">
+                            <p>UIデザイン</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/work__item__002.jpg" srcset="assets/images/work__item__002.jpg 1x, assets/images/work__item__002@2x.jpg 2x">
+                            <p>プロダクトデザイン</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/work__item__003.jpg" srcset="assets/images/work__item__003.jpg 1x, assets/images/work__item__003@2x.jpg 2x">
+                            <p>ロゴデザイン</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/work__item__004.jpg" srcset="assets/images/work__item__004.jpg 1x, assets/images/work__item__004@2x.jpg 2x">
+                            <p>ロゴ・パッケージデザイン</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/work__item__005.jpg" srcset="assets/images/work__item__005.jpg 1x, assets/images/work__item__005@2x.jpg 2x">
+                            <p>ロゴ・パッケージデザイン</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-container">
+                    <div class="modal-body">
+                        <div class="modal-close">×</div>
+                        <div class="modal-content">
+                            <p class="modal-title">UIデザイン</p>
+                            <div class="modal-img">
+                                <img src="assets/images/work__item__001.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal-mask"></div>
+
+
+        <section class="service" id="service">
+            <h2>SERVICE</h2>
+            <div class="service__text">
+                <div class="service__left">
+                    <h3>Graphics Design</h3>
+                    <p>
+                        パッケージデザイン/ポスターデザイン/名刺デザイン/フライヤーデザイン/
+                        冊子デザイン/ロゴデザイン/CDジャケットデザイン等、幅広く承ります。<br><br>
+                        「手に取った人になんと言わせるか？」受け取る人の行動までデザインします。
+                    </p>
+                </div>
+                <div class="service__right">
+                    <h3>Web Design</h3>
+                    <p>
+                        サイト設計からディレクション、デザイン、コーディングまでを承ります。LPはもちろん、
+                        コーポレートサイトやイベントサイトなど、ヒアリングを詳細に行い、目的に合わせた
+                        提案をいたします。<br><br>
+                        新規サイトの制作だけでなく、既存のサイトのリニューアルに関しても
+                        お気軽にご相談ください。
+                    </p>
+                </div>
+            </div>
+            <div class="service__link">
+            <a href="./pages/service.html">
+                もっと見る
+            </a>
+            </div>
+        </section>
+        <div class="content__02">
+            <img src="assets/images/contentImage_002.jpg">
+        </div>
+
+
+        <section class="blog" id="blog">
+
+            <div class="blog__box">
+            <h2>BLOG</h2>
+            <a href="./pages/blog.html">
+            <p><span class="border">もっと読む</span></p>
+            </a>
+            </div>
+
+            <div class="blog__list">
+                    <div class="blog__contents left">
+                        <img class="pc" src="assets/images/blog-img1.jpg" srcset="assets/images/blog-img1.jpg 1x, ./assets/images/blog-img1@2x.jpg 2x">
+                        <img class="sp" src="assets/images/blog-img3.jpg" srcset="assets/images/blog-img3.jpg 1x, assets/images/blog-img3@2x.jpg 2x">
+                        <p class="medium blog__title">webﾃﾞｻﾞｲﾅｰに向けたMuse代替案:STUDIO</p>
+                        <p class="day">2019.05.01</p>
+                        <p class="blog__text">
+                            2018年3月にAdobeMuseがサービス終了を発表して以来、このプラットフォームを
+                            長年利用してきた事業や多くのユーザーが、今後どうすればいいかと
+                            頭を抱えてしまっているかと思います。
+                        </p>
+                        <ul>
+                            <li><span class="tag-color">Design</span></li>
+                            <li><span class="tag-color">Tips</span></li>
+                            <li><span class="tag-color">UX</span></li>
+                            <li><span class="tag-color">UI</span></li>
+                        </ul>
+                    </div>
+                    <div class="blog__contents center">
+                        <img class="pc" src="assets/images/blog-img2.jpg" srcset="assets/images/blog-img2.jpg 1x, assets/images/blog-img2@2x.jpg 2x">
+                        <img class="sp" src="assets/images/blog-img3.jpg" srcset="assets/images/blog-img3.jpg 1x, assets/images/blog-img3@2x.jpg 2x">
+                        <p class="medium blog__title">webﾃﾞｻﾞｲﾅｰに向けたMuse代替案:STUDIO</p>
+                        <p class="day">2019.05.01</p>
+                        <p class="blog__text">
+                            2018年3月にAdobeMuseがサービス終了を発表して以来、このプラットフォームを
+                            長年利用してきた事業や多くのユーザーが、今後どうすればいいかと
+                            頭を抱えてしまっているかと思います。
+                        </p>
+                        <ul>
+                            <li><span class="tag-color">Design</span></li>
+                            <li><span class="tag-color">Tips</span></li>
+                            <li><span class="tag-color">UX</span></li>
+                            <li><span class="tag-color">UI</span></li>
+                        </ul>
+                    </div>
+                    <div class="blog__contents right">
+                        <img src="assets/images/blog-img3.jpg" srcset="assets/images/blog-img3.jpg 1x, assets/images/blog-img3@2x.jpg 2x">
+                        <p class="medium blog__title">webﾃﾞｻﾞｲﾅｰに向けたMuse代替案:STUDIO</p>
+                        <p class="day">2019.05.01</p>
+                        <p class="blog__text">
+                            2018年3月にAdobeMuseがサービス終了を発表して以来、このプラットフォームを
+                            長年利用してきた事業や多くのユーザーが、今後どうすればいいかと
+                            頭を抱えてしまっているかと思います。
+                        </p>
+                        <ul>
+                            <li><span class="tag-color">Design</span></li>
+                            <li><span class="tag-color">Tips</span></li>
+                            <li><span class="tag-color">UX</span></li>
+                            <li><span class="tag-color">UI</span></li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer" id="contact">
+        <div class="contact__text">
+            <div class="contact__left">
+                <h3>CONTACT</h3>
+                <p>ご依頼・お問い合わせはこちら</p>
+            </div>
+            <div class="contact__right">
+              <div class="contact__button mail">
+                <p class="medium">
+                    MAIL
+                </p>
+            </div>
+            <div class="contact__button messanger">
+                <a href="https://workspace.google.co.jp/intl/ja/products/chat/">
+                <p class="medium">
+                    MESSANGER
+                </p>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="copywriter">
+            <p>&copy;2019 MARY JONES PORTFOLIO</p>
+        </div>
+    </footer>
+    <script src="./assets/js/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/lib/jquery.waypoints.min.js"></script>
+</body>
+
+</html>
